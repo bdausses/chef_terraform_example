@@ -4,6 +4,8 @@ This repo contains terraform code that will spin up an example server in AWS and
 **DISCLAIMER**:  This code is an example only.  There are most certainly optimizations that can and should be made if you are going to use this to spin up a server for actual usage.
 
 *Translation*:  YMMV, and do your due dilligence if you are going to use this for anything other than an example.
+## Authentication Note
+This plan assumes that you are using environment variables for your authentication to the AWS API.  More info available here:  https://www.terraform.io/docs/providers/aws/index.html
 
 ## Usage
 - Copy terraform.tfvars.example to terraform.tfvars.
