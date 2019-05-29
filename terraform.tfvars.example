@@ -1,0 +1,17 @@
+# Define Common Tags
+tag_application = "The Wall"
+tag_contact = "Jon Snow"
+tag_customer = "Castle Black"
+tag_dept = "Night's Watch"
+tag_production = "Yes"
+tag_project = "Defending the Realm"
+tag_sleep = "never"
+tag_ttl = "2"
+
+# Define Key Name
+key_name = "Jon_snow"
+
+# Define Chef Variables
+chef_server = "https://chef-server.castleblack.com/organizations/nightswatch"
+chef_user = "jonsnow"
+chef_user_key = "/path/to/local/copy/of/jonsnow's/key/file/jonsnow.pem"
