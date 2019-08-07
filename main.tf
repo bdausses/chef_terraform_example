@@ -60,6 +60,15 @@ resource "aws_instance" "chef_provisioner_example" {
     )
   )}"
   provisioner "chef" {
+    attributes_json = <<EOF
+      {
+        "chef-client": {
+          "interval": 600
+
+          }
+        }
+    EOF
+
     environment     = "_default"
     run_list        = ["chef-client::default"]
     node_name       = "example_server_1"
